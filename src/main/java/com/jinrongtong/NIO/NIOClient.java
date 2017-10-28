@@ -6,7 +6,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.SocketChannel;
 import java.util.concurrent.TimeUnit;
 
-public class Client {
+public class NIOClient {
     public static void main(String args[]){
         ByteBuffer buffer = ByteBuffer.allocate(1024);
         SocketChannel socketChannel = null;
